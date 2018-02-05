@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="nickname"
+        android:summary="Unesite nadimak"
+        android:title="Nadimak" />
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/colorArray"
+        android:entryValues="@array/colorValue"
+        android:key="color"
+        android:summary="Odaberite boju pozadine aplikacije"
+        android:title="Boja pozadine" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="notification"
+        android:summary="Želite li primati obavijesti"
+        android:title="Obavijesti" />
+
+</PreferenceScreen>
